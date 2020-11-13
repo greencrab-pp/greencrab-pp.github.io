@@ -1,0 +1,130 @@
+/* header */
+.animation {
+  width: 20px;
+  animation: x 10s infinite alternate;
+  border: 0px solid #fff;
+  height: 3px;
+  border-radius: 20px;
+  margin: 0px;
+}
+
+@keyframes x {
+  0% {
+    background-color: lightblue;
+  }
+  25% {
+    background-color:lavenderblush;
+  }
+  50% {
+    background-color: lightgoldenrodyellow;
+  }
+  75%{
+    background-color: #bee3db;
+  }
+  100% {
+    background-color: lightcyan;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* font-size: 0; */
+  margin:3px;
+  background-color: #fff;
+/*   border: 1px solid green; */
+}
+
+.header .logoa {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+/*   border: 1px solid green; */
+}
+
+.logo {
+  vertical-align: middle;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px lavenderblush;
+  width: 42px;
+  height: 42px;
+/*   border: 1px solid green; */
+}
+
+.header div {
+  display: flex;
+/*   border: 0px solid blue; */
+}
+
+.headerbox {
+/*   margin:0 30px; */
+}
+
+.header div a {
+  padding: 0px 30px;
+  line-height: 82px;
+  font-size: 16px;
+/*   border: 1px solid red; */
+  color: #000;
+  text-decoration: none;
+}
+
+.header div a:hover {
+    background-color: lightblue;
+    color: #457b9d;
+    transition: 1s;
+}
+
+/*  */
+/* container */
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    /* margin: 40px; */
+    /* border: 1px solid yellow; */
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.title .detail {
+    /* border: 1px solid red; */
+    /* width: 700px; */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.item {
+    position: relative;
+
+    /* border: 1px solid red; */
+    flex: 0 0 28%;
+    padding: 10px;
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+
+.item:hover {
+    background-color: rgba(234, 226, 183, 0.1);
+    transition: 1s 0s ease;
+    box-shadow:1px 1px 12px gray;
+}
+
+.item img {
+/*     border-radius: 20px; */
+    width: 100%;
+  border:0.2px solid lightgray;
+      box-shadow:1px 1px 3px lightgray;
+
+    /* width: 100px; */
+}
