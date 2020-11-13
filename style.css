@@ -30,17 +30,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* font-size: 0; */
   margin:3px;
   background-color: #fff;
-/*   border: 1px solid green; */
 }
 
 .header .logoa {
   margin: 0 10px;
   display: flex;
   align-items: center;
-/*   border: 1px solid green; */
 }
 
 .logo {
@@ -49,82 +46,60 @@
   box-shadow: 0px 0px 10px lavenderblush;
   width: 42px;
   height: 42px;
-/*   border: 1px solid green; */
 }
 
 .header div {
   display: flex;
-/*   border: 0px solid blue; */
-}
-
-.headerbox {
-/*   margin:0 30px; */
 }
 
 .header div a {
   padding: 0px 30px;
   line-height: 82px;
-  font-size: 16px;
-/*   border: 1px solid red; */
+  font-size: 14px;
   color: #000;
   text-decoration: none;
 }
 
 .header div a:hover {
-    background-color: lightblue;
-    color: #457b9d;
-    transition: 1s;
+  background-color: lightblue;
+  color: #457b9d;
+  transition: 1s;
 }
 
-/*  */
 /* container */
 .wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-    /* margin: 40px; */
-    /* border: 1px solid yellow; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .title {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    margin: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
 }
 
 .title .detail {
-    /* border: 1px solid red; */
-    /* width: 700px; */
-    margin-top: 20px;
-    text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .item {
-    position: relative;
-
-    /* border: 1px solid red; */
-    flex: 0 0 28%;
-    padding: 10px;
-
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
+  position: relative;
+  flex: 0 0 28%;
+  padding: 10px;
 }
 
 .item:hover {
-    background-color: rgba(234, 226, 183, 0.1);
-    transition: 1s 0s ease;
-    box-shadow:1px 1px 12px gray;
+  background-color: rgba(234, 226, 183, 0.1);
+  transition: 1s 0s ease;
+  box-shadow:1px 1px 12px gray;
 }
 
 .item img {
-/*     border-radius: 20px; */
-    width: 100%;
+  width: 100%;
   border:0.2px solid lightgray;
-      box-shadow:1px 1px 3px lightgray;
-
-    /* width: 100px; */
+  box-shadow:1px 1px 3px lightgray;
 }
